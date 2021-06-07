@@ -1,5 +1,7 @@
 package pers.wxp.type;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * @author xiaopeng
  * @date 2021年04月02日 10:39
@@ -7,7 +9,8 @@ package pers.wxp.type;
  */
 public class StrackTest {
     public static void main(String[] args) {
-        eat();
+        String s = "hello";
+
     }
 
     public static void  eat(){

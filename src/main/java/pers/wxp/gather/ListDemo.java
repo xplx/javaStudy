@@ -16,6 +16,7 @@ public class ListDemo {
 		a.add("2");
 
 		Iterator<String> it = a.iterator();
+		//迭代获取值
 		while (it.hasNext()) {
 			String temp = it.next();
 			if (temp == "2") {
