@@ -28,17 +28,22 @@ public class Client {
         blog1.setLikes(1);
         posts.add(blog1);
 
+        Map<BlogPostType, IntSummaryStatistics> likeStatisticsPerType = posts.stream()
+                .collect(groupingBy(BlogPost::getType,
+                        summarizingInt(BlogPost::getLikes)));
+        System.out.println(likeStatisticsPerType);
+
         //分组返回list
         Map<Tuple, List<BlogPost>> postsPerTypeAndAuthor = posts.stream()
                 .collect(groupingBy(post -> new Tuple()));
         //自定义返回值
         Map<BlogPostType, List<Map<String, Object>>> postsPerType = posts.stream()
-                .collect(groupingBy(BlogPost::getType, mapping(n->getBlogPost(n), toList())));
+                .collect(groupingBy(BlogPost::getType, mapping(n -> getBlogPost(n), toList())));
         System.out.println(postsPerType);
 
         //对分组进行转换，对分组内元素进行计算
         Map<BlogPostType, Map<String, Object>> postsPerTypeList = posts.stream()
-                .collect(groupingBy(BlogPost::getType, collectingAndThen(toList(), m->{
+                .collect(groupingBy(BlogPost::getType, collectingAndThen(toList(), m -> {
                     Map<String, Object> map = new HashMap<>();
                     map.put("count", m.stream().count());
                     //对分组的list求和
@@ -50,7 +55,7 @@ public class Client {
         //对分组排序
 
         Map<BlogPostType, Map<String, Object>> postsPerTypeSort = posts.stream()
-                .collect(groupingBy(BlogPost::getType, collectingAndThen(toList(), m->{
+                .collect(groupingBy(BlogPost::getType, collectingAndThen(toList(), m -> {
                     Map<String, Object> map = new HashMap<>();
                     map.put("count", m.stream().count());
                     //对分组的list求和

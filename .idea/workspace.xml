@@ -2,125 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04acdf44-1d46-4362-963a-91d5ff1b863b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk10/CustomFunctionalInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk10/DefaultMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk10/Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/optional/TestGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/adapter/VlcPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/BlueCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/BridgePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/DrawApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/GreenCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/RedCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/ChainPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/BuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/CommandPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/SellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/command/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/composite/CompositePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/composite/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/DecoratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/decorator/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/FacadePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/ShapeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/facade/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/AbstractFactoryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Green.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/abstractFactory/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/CriteriaFemale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/CriteriaPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/OrCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/filter/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/flyweight/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/flyweight/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/flyweight/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/flyweight/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/interpreter/AndExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/interpreter/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/interpreter/InterpreterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/interpreter/OrExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/interpreter/TerminalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/iterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/iterator/IteratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/iterator/NameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/mediator/ChatRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/mediator/MediatorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/mediator/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/nullObject/AbstractCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/nullObject/CustomerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/nullObject/NullCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/nullObject/NullPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/nullObject/RealCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/BinaryObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/HexaObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/ObserverPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/OctalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/PrototypePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/ShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/prototype/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/OperationAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/OperationMultiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/OperationSubstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/strategy/StrategyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/template/Cricket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/template/Football.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/template/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/template/TemplatePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/ComputerPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/ComputerPartDisplayVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/ComputerPartVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/visitor/VisitorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/LocalDateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/enumDemo/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gc/GcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gc/JavaGcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/FilesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/StopWatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/Formula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/Something.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/StrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/StrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/MultisetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/MultisetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WorkPlaceGitlab/crm-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -163,7 +62,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,13 +78,13 @@
       <recent name="D:\WorkplaceStudy\javastudy\src\main\java\pers\wxp\pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediatorPatternDemo">
-    <configuration name="ChainPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.chain.ChainPatternDemo" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.lambda.stream.Client" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.pattern.chain.*" />
+          <option name="PATTERN" value="pers.wxp.lambda.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.command.CommandPatternDemo" />
+    <configuration name="FilesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.guava.FilesTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.pattern.command.*" />
+          <option name="PATTERN" value="pers.wxp.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterpreterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.interpreter.InterpreterPatternDemo" />
+    <configuration name="GcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.gc.GcTest" />
       <module name="java-study" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails  -XX:+PrintCommandLineFlags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.pattern.interpreter.*" />
+          <option name="PATTERN" value="pers.wxp.gc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediatorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.mediator.MediatorPatternDemo" />
+    <configuration name="JavaGcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.gc.JavaGcTest" />
       <module name="java-study" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xmx200M -Xms200M -Xmn50M -XX:+PrintGCDetails -XX:TargetSurvivorRatio=60 -XX:+PrintTenuringDistribution -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:MaxTenuringThreshold=3 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.pattern.mediator.*" />
+          <option name="PATTERN" value="pers.wxp.gc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.nullObject.NullPatternDemo" />
+    <configuration name="StopWatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.guava.StopWatchTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.pattern.nullObject.*" />
+          <option name="PATTERN" value="pers.wxp.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,13 +146,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FilesTest" />
+      <item itemvalue="Application.JavaGcTest" />
+      <item itemvalue="Application.StopWatchTest" />
+      <item itemvalue="Application.GcTest" />
+      <item itemvalue="Application.Client" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MediatorPatternDemo" />
-        <item itemvalue="Application.ChainPatternDemo" />
-        <item itemvalue="Application.CommandPatternDemo" />
-        <item itemvalue="Application.NullPatternDemo" />
-        <item itemvalue="Application.InterpreterPatternDemo" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.GcTest" />
+        <item itemvalue="Application.JavaGcTest" />
+        <item itemvalue="Application.FilesTest" />
+        <item itemvalue="Application.StopWatchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +201,15 @@
       <workItem from="1621560150256" duration="12065000" />
       <workItem from="1621920723267" duration="1455000" />
       <workItem from="1621991588825" duration="14511000" />
+      <workItem from="1625107838127" duration="2833000" />
+      <workItem from="1625620175358" duration="4051000" />
+      <workItem from="1625708686447" duration="1449000" />
+      <workItem from="1625729807659" duration="586000" />
+      <workItem from="1625794342732" duration="1286000" />
+      <workItem from="1626157473856" duration="10144000" />
+      <workItem from="1626312276337" duration="593000" />
+      <workItem from="1626426659437" duration="1455000" />
+      <workItem from="1629188680954" duration="1342000" />
     </task>
     <servers />
   </component>
@@ -304,11 +221,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="368" y="0" width="656" height="728" key="#Unnamed/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621216146340" />
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1621992981453">
+    <state x="1559" y="-179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626232407537">
+      <screen x="1366" y="-209" width="1920" height="1040" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626225712654" />
+    <state x="1559" y="-179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626232407537" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1625621929847">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621992981453" />
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615559692104" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625621929847" />
     <state x="425" y="156" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1621216134935">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -317,100 +238,75 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621993827121" />
-    <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1615558943026" />
-    <state x="438" y="70" key="#xdebugger.evaluate" timestamp="1615254417110">
+    <state width="501" height="438" key="DebuggerActiveHint" timestamp="1626426895523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="438" y="70" key="#xdebugger.evaluate/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615254417110" />
-    <state width="455" height="438" key="DebuggerActiveHint" timestamp="1622439254395">
+    <state width="501" height="438" key="DebuggerActiveHint/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626426895523" />
+    <state x="357" y="107" key="FileChooserDialogImpl" timestamp="1625729678608">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="455" height="438" key="DebuggerActiveHint/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622439254395" />
-    <state x="357" y="107" key="FileChooserDialogImpl" timestamp="1621838608657">
+    <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625729678608" />
+    <state width="1323" height="237" key="GridCell.Tab.0.bottom" timestamp="1626680184550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615346259403" />
-    <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621838608657" />
-    <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1622683224048">
+    <state width="1323" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
+    <state width="1877" height="433" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
+    <state width="1323" height="237" key="GridCell.Tab.0.center" timestamp="1626680184550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224048" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364780" />
-    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.0.center" timestamp="1622683224047">
+    <state width="1323" height="237" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
+    <state width="1877" height="433" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
+    <state width="1323" height="237" key="GridCell.Tab.0.left" timestamp="1626680184549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224047" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364780" />
-    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.0.left" timestamp="1622683224046">
+    <state width="1323" height="237" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184549" />
+    <state width="1877" height="433" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054580" />
+    <state width="1323" height="237" key="GridCell.Tab.0.right" timestamp="1626680184550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499006" />
-    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224046" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364780" />
-    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.0.right" timestamp="1622683224048">
+    <state width="1323" height="237" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
+    <state width="1877" height="433" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
+    <state width="1323" height="237" key="GridCell.Tab.1.bottom" timestamp="1626680184551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224048" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364780" />
-    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.1.bottom" timestamp="1622683224049">
+    <state width="1323" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
+    <state width="1877" height="433" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
+    <state width="1323" height="237" key="GridCell.Tab.1.center" timestamp="1626680184551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="301" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224049" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364564" />
-    <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.1.center" timestamp="1622683224048">
+    <state width="1323" height="237" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
+    <state width="1877" height="433" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
+    <state width="1323" height="237" key="GridCell.Tab.1.left" timestamp="1626680184550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="301" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224048" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364563" />
-    <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.1.left" timestamp="1622683224048">
+    <state width="1323" height="237" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
+    <state width="1877" height="433" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
+    <state width="1323" height="237" key="GridCell.Tab.1.right" timestamp="1626680184551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498834" />
-    <state width="1323" height="301" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224048" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364563" />
-    <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="301" key="GridCell.Tab.1.right" timestamp="1622683224048">
+    <state width="1323" height="237" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
+    <state width="1877" height="433" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1625729743754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="301" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622683224048" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1622438364563" />
-    <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1615772901207">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615255090780" />
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1615772901207" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625729743754" />
     <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1621824447826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615167158132" />
     <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621824447826" />
-    <state x="1934" y="-59" width="772" height="749" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1617327623106" />
     <state x="230" y="102" width="906" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622013208487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="230" y="102" width="906" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615255337575" />
     <state x="230" y="102" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622013208487" />
     <state x="387" y="114" width="592" height="500" key="find.popup" timestamp="1621561153204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="114" width="592" height="500" key="find.popup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621561153204" />
-    <state x="352" y="49" key="search.everywhere.popup" timestamp="1621222164535">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1861" y="-139" width="945" height="969" key="search.everywhere.popup" timestamp="1626159825209">
+      <screen x="1366" y="-209" width="1920" height="1040" />
     </state>
-    <state x="352" y="49" key="search.everywhere.popup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621222164535" />
+    <state x="352" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625709550505" />
+    <state x="1861" y="-139" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626159825209" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,6 +320,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pers/wxp/pattern/chain/ChainPatternDemo.java</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
