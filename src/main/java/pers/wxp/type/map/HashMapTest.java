@@ -1,10 +1,10 @@
 package pers.wxp.type.map;
 
+
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author wxp
@@ -13,12 +13,24 @@ import java.util.concurrent.ConcurrentHashMap;
 public class HashMapTest {
     @Test
     public void HashMapMethod() {
-        Map<String, Object> m = new HashMap();
+        //Map<String, Object> m = new HashMap();
+        Map<String, Object> m = new HashMap(11);
         m.put("a", 1);
-        Map concurrentMap = new ConcurrentHashMap();
+        m.get("a");
+        m.remove("a");
+        System.out.println(m);
     }
 
-    void resize(int newCapacity){
-        Map.Entry[] oldEntries = new Map.Entry[newCapacity];
+    public static void main(String[] args) {
+        HashMap<String, Object> m = new HashMap(11);
+        m.put("a", 1);
+        m.get("a");
+        m.remove("a");
+        int h;
+        int hash = "a".hashCode();
+
+        int a = (8 - 1) & hash;
+        System.out.println(a);
     }
+
 }

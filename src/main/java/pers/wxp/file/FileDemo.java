@@ -39,8 +39,8 @@ public class FileDemo {
 	 *             一次读取指定长度字节数据
 	 */
 	@Test
-	public void fileDemo2() throws IOException {
-		File file1 = new java.io.File("F:\\file.txt");
+	public void fileDemo2() throws IOException, InterruptedException {
+		File file1 = new java.io.File("F:\\test\\file.txt");
 		// OutputStream output = new FileOutputStream(file1);//通过子类实例化父类，覆盖的方式
 		InputStream input = new FileInputStream(file1);// 通过子类实例化父类，追加的方式
 		byte data[] = new byte[10];//
@@ -49,6 +49,9 @@ public class FileDemo {
 			System.out.println(new String(data, 0, len));
 		}
 		input.close();
+		while (true) {
+			Thread.sleep(10000);
+		}
 	}
 
 	/**

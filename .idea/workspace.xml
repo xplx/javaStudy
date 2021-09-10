@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04acdf44-1d46-4362-963a-91d5ff1b863b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/enumDemo/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gc/GcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gc/JavaGcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/FilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/StopWatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/Formula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/Something.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk8/functional/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/MultisetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/MultisetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/TableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/file/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/FileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListIteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/map/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/map/HashMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +47,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.33333334" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,7 +67,7 @@
       <recent name="D:\WorkplaceStudy\javastudy\src\main\java\pers\wxp\pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Part">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.wxp.lambda.stream.Client" />
       <module name="java-study" />
@@ -92,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilesTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.guava.FilesTest" />
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.type.map.HashMapTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.guava.*" />
+          <option name="PATTERN" value="pers.wxp.type.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.gc.GcTest" />
+    <configuration name="Part" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.Part" />
       <module name="java-study" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails  -XX:+PrintCommandLineFlags" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.gc.*" />
+          <option name="PATTERN" value="pers.wxp.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,47 +107,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaGcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.gc.JavaGcTest" />
+    <configuration name="FileDemo.fileDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-study" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xmx200M -Xms200M -Xmn50M -XX:+PrintGCDetails -XX:TargetSurvivorRatio=60 -XX:+PrintTenuringDistribution -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:MaxTenuringThreshold=3 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.gc.*" />
+          <option name="PATTERN" value="pers.wxp.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pers.wxp.file" />
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.file.FileDemo" />
+      <option name="METHOD_NAME" value="fileDemo2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopWatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.guava.StopWatchTest" />
+    <configuration name="HashMapTest.HashMapMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.guava.*" />
+          <option name="PATTERN" value="pers.wxp.type.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pers.wxp.type.map" />
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.type.map.HashMapTest" />
+      <option name="METHOD_NAME" value="HashMapMethod" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FilesTest" />
-      <item itemvalue="Application.JavaGcTest" />
-      <item itemvalue="Application.StopWatchTest" />
-      <item itemvalue="Application.GcTest" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.HashMapTest" />
+      <item itemvalue="JUnit.FileDemo.fileDemo2" />
+      <item itemvalue="JUnit.HashMapTest.HashMapMethod" />
+      <item itemvalue="Application.Part" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Part" />
+        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="JUnit.HashMapTest.HashMapMethod" />
+        <item itemvalue="JUnit.FileDemo.fileDemo2" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.GcTest" />
-        <item itemvalue="Application.JavaGcTest" />
-        <item itemvalue="Application.FilesTest" />
-        <item itemvalue="Application.StopWatchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,6 +203,10 @@
       <workItem from="1626312276337" duration="593000" />
       <workItem from="1626426659437" duration="1455000" />
       <workItem from="1629188680954" duration="1342000" />
+      <workItem from="1629940866962" duration="584000" />
+      <workItem from="1630303354226" duration="6982000" />
+      <workItem from="1630311788755" duration="724000" />
+      <workItem from="1631237724539" duration="1490000" />
     </task>
     <servers />
   </component>
@@ -217,10 +214,6 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="368" y="0" width="656" height="728" key="#Unnamed" timestamp="1621216146340">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="368" y="0" width="656" height="728" key="#Unnamed/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621216146340" />
     <state x="1559" y="-179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626232407537">
       <screen x="1366" y="-209" width="1920" height="1040" />
     </state>
@@ -230,78 +223,79 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625621929847" />
-    <state x="425" y="156" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1621216134935">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="425" y="156" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621216134935" />
     <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1621993827121">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621993827121" />
+    <state x="2056" y="60" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630307060458">
+      <screen x="1366" y="-209" width="1920" height="1040" />
+    </state>
+    <state x="2056" y="60" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630307060458" />
     <state width="501" height="438" key="DebuggerActiveHint" timestamp="1626426895523">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="501" height="438" key="DebuggerActiveHint/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626426895523" />
-    <state x="357" y="107" key="FileChooserDialogImpl" timestamp="1625729678608">
+    <state x="357" y="107" key="FileChooserDialogImpl" timestamp="1630310100426">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625729678608" />
-    <state width="1323" height="237" key="GridCell.Tab.0.bottom" timestamp="1626680184550">
+    <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630310100426" />
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1630309992097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
-    <state width="1877" height="433" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
-    <state width="1323" height="237" key="GridCell.Tab.0.center" timestamp="1626680184550">
+    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992097" />
+    <state width="1877" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749463" />
+    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1630309992096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
-    <state width="1877" height="433" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
-    <state width="1323" height="237" key="GridCell.Tab.0.left" timestamp="1626680184549">
+    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992096" />
+    <state width="1877" height="80" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749462" />
+    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1630309992096">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184549" />
-    <state width="1877" height="433" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054580" />
-    <state width="1323" height="237" key="GridCell.Tab.0.right" timestamp="1626680184550">
+    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992096" />
+    <state width="1877" height="80" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749462" />
+    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1630309992097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
-    <state width="1877" height="433" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054581" />
-    <state width="1323" height="237" key="GridCell.Tab.1.bottom" timestamp="1626680184551">
+    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992097" />
+    <state width="1877" height="80" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749462" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1630309992098">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
-    <state width="1877" height="433" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
-    <state width="1323" height="237" key="GridCell.Tab.1.center" timestamp="1626680184551">
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992098" />
+    <state width="1877" height="80" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749463" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1630309992097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
-    <state width="1877" height="433" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
-    <state width="1323" height="237" key="GridCell.Tab.1.left" timestamp="1626680184550">
+    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992097" />
+    <state width="1877" height="80" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749463" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1630309992097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184550" />
-    <state width="1877" height="433" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
-    <state width="1323" height="237" key="GridCell.Tab.1.right" timestamp="1626680184551">
+    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992097" />
+    <state width="1877" height="80" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749463" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1630309992097">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="237" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1626680184551" />
-    <state width="1877" height="433" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1626228054415" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1625729743754">
+    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630309992097" />
+    <state width="1877" height="80" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630306749463" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1630312622076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1625729743754" />
-    <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1621824447826">
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630312622076" />
+    <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1630308292856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621824447826" />
+    <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630308292856" />
+    <state x="1934" y="-59" width="772" height="749" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@1366.-209.1920.1040" timestamp="1630307253923" />
     <state x="230" y="102" width="906" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622013208487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="230" y="102" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1622013208487" />
-    <state x="387" y="114" width="592" height="500" key="find.popup" timestamp="1621561153204">
+    <state x="57" y="0" key="new project wizard" timestamp="1630310127952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="114" width="592" height="500" key="find.popup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1621561153204" />
+    <state x="57" y="0" key="new project wizard/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1630310127952" />
     <state x="1861" y="-139" width="945" height="969" key="search.everywhere.popup" timestamp="1626159825209">
       <screen x="1366" y="-209" width="1920" height="1040" />
     </state>
@@ -325,6 +319,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java</url>
           <line>33</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../workSoftware/jdk1.8/src.zip!/java/util/HashMap.java</url>
+          <line>466</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../workSoftware/jdk1.8/src.zip!/java/util/HashMap.java</url>
+          <line>628</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pers/wxp/type/map/HashMapTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../workSoftware/jdk1.8/src/java/util/HashMap.java</url>
+          <line>466</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../workSoftware/jdk1.8/src/java/util/HashMap.java</url>
+          <line>625</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../workSoftware/jdk1.8/src/java/util/HashMap.java</url>
+          <line>628</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
