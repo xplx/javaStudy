@@ -12,6 +12,13 @@ public class DeadLockTest implements Runnable {
     //进入锁的控制符 n多少个线陈争夺，这个flag最大就为n-1
     private int flag;
 
+    private final String str;
+
+    {
+        //实例变量可以在初始化快赋初始值
+        str = "123";
+    }
+
     public DeadLockTest(int flag) {
         this.flag = flag;
     }
